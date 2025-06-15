@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Dyslexiread
+# DyslexiRead is an web app that converts regular text into a dyslexia-friendly format. It transforms fonts, adjusts spacing, and improves readability to reduce cognitive load for users with dyslexia.
 
-## Getting Started
+## Problem & Solution
 
-First, run the development server:
+Dyslexia affects 1 in 5 kids, making reading tough and leading to school dropouts. Most tools are boring and just change text. DyslexiaAI makes reading clear with special fonts, summarizes notes, asks quiz questions, and lets you choose colors to keep it exciting.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dyslexia-Friendly Format: Uses OpenDyslexic font, high-contrast colors, and wide spacing for easy reading.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+AI Summaries: Novita AI creates short, simple summaries of any text or PDF.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Color Themes: Pick dyslexia-friendly themes like blue-on-cream with smooth transitions.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Trae AI IDE: For fast and easy coding.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Novita AI (DeepSeek): Powers summaries and quiz questions.
 
-## Deploy on Vercel
+Next.js: Builds the web app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tailwind CSS & shadcn/ui: Makes the UI clean and accessible.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vercel: Hosts the app online.
